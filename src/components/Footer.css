@@ -1,0 +1,43 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  
+}
+
+.footer__info{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.footer__link{
+    margin:1rem;
+    font-size: 1.2rem;
+    color: grey;
+    text-decoration: none;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.icon{
+    font-size: 1rem;
+    margin:1.2rem;
+    color: grey;
+}
+
+.footer__copyright{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer__copyright > p {
+    color: grey;
+    font-size: 0.9rem;
+    font-weight:normal;
+}
+

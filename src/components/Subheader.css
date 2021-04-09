@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+.subheader{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: #536162;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.subheader__option{
+    margin: 1rem;
+}
+
+.subheader__link{
+    text-decoration: none;
+    color: white;
+}
+
+.subheader__link :hover{
+    text-decoration: none;
+    color: #d4e2d4;
+}
+
+
