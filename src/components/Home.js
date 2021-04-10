@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import "./Home.css";
 import Product from "./Product"
 import tshirt from "../tshirt"
@@ -53,7 +53,7 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
             saving = {item.saving}
                 handleItems = {handleItems}
                 handlefavoriteIcon  ={handlefavoriteIcon}
-                temp = {temp}
+                key = {item.id}
 
             />
             )
@@ -78,6 +78,7 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
                 saving = {item.saving}
                  handlefavoriteIcon  ={handlefavoriteIcon}
                  temp = {temp}
+                  key = {item.id}
             />
             )
         })
@@ -100,7 +101,6 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
                 handleItems = {handleItems}
                 saving = {item.saving}
                  handlefavoriteIcon  ={handlefavoriteIcon}
-                 temp = {temp}
             />
             )
         })
@@ -126,6 +126,7 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
                 saving = {item.saving}
                  handlefavoriteIcon  ={handlefavoriteIcon}
                  temp = {temp}
+                  key = {item.id}
             />
           
             )
@@ -151,6 +152,8 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
                 saving = {item.saving}
                  handlefavoriteIcon  ={handlefavoriteIcon}
                  temp = {temp}
+
+                  key = {item.id}
             />
             )
         })

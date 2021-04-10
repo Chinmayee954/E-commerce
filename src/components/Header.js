@@ -21,7 +21,7 @@ function Header({items}) {
        {/* create search button */}
 
       <div className="header__search">
-       <input type="text" className="header__searchInput"></input>
+       <input type="text" className="header__searchInput" placeholder="Search your Product"></input>
        <SearchIcon className="header__searchIcon" />
       </div>
 

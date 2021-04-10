@@ -1,6 +1,6 @@
 const sarees = [
     {
-     id : 1,
+     id : 5.1,
     title: "Women's Banarasi Art Silk Saree With Blouse Piece", 
     image: "https://m.media-amazon.com/images/I/91yv9d5HbIL._AC_UL320_.jpg", 
     price: 599, 
@@ -10,7 +10,7 @@ const sarees = [
     },
 
     {
-           id : 2,
+           id : 5.2,
     title: "Blexos Polyresin Solid Window Curtain, 5 Feet, Coffee, Pack of 2", 
     image: "https://m.media-amazon.com/images/I/919lNOaU-GL._AC_UL320_.jpg", 
     price: 600, 
@@ -20,7 +20,7 @@ const sarees = [
     },
 
     {
-         id : 3,
+         id : 5.3,
     title: "Women's Banarasi Silk Saree With Blouse Piece", 
     image: "https://m.media-amazon.com/images/I/91FtMGNczVL._AC_UL320_.jpg", 
     price: 999, 
@@ -30,7 +30,7 @@ const sarees = [
     },
 
      {
-          id : 4,
+          id : 5.4,
     title: "Women's Banarasi Silk Saree With Blouse Piece (saree25)", 
     image: "https://m.media-amazon.com/images/I/91eq2T6iYEL._AC_UL320_.jpg", 
     price: 699, 

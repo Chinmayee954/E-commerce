@@ -12,10 +12,11 @@ function App() {
 
 
  const [items, setItems] = useState([])
- const temp = 0;
 
 
-    function handleItems(){
+
+    function handleItems(event){
+   
         setItems([
             ...items, {
                  id: tshirt[0].id,
@@ -23,18 +24,18 @@ function App() {
             price:tshirt[0].price,
             rating: tshirt[0].rating,
             image : tshirt[0].image,
-            discount : tshirt[0].discount
+            discount : tshirt[0].discount,
+            saving : tshirt[0].saving
             }
         ])
-       
     }
+
+   
 
     function handlefavoriteIcon()
     {
-       temp = 1;
-       console.log("Hello");
+      console.log("hello");
     }
-
 
 
 
@@ -61,7 +62,6 @@ function App() {
           <Home 
             handleItems = {handleItems}
             handlefavoriteIcon = {handlefavoriteIcon}
-            temp = {temp}
           />
           <Footer />
         </Router>

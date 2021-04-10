@@ -1,6 +1,6 @@
 const curtains = [
     {
-     id : 1,
+     id : 4.1,
     title: "Blexos Saawaan Polyester Kolaveri 4x5 ft Window Curtains (Maroon) -Set of 2", 
     image: "https://m.media-amazon.com/images/I/81MWLey3tjL._AC_UL320_.jpg", 
     price: 599, 
@@ -10,7 +10,7 @@ const curtains = [
     },
 
     {
-           id : 2,
+           id : 4.2,
     title: "Blexos Polyresin Solid Window Curtain, 5 Feet, Coffee, Pack of 2", 
     image: "https://m.media-amazon.com/images/I/71o1pCkJWDL._AC_UL320_.jpg", 
     price: 399, 
@@ -20,7 +20,7 @@ const curtains = [
     },
 
     {
-         id : 3,
+         id : 4.3,
     title: "Skive India Polyester Blend Long Crush Eyelet Door 7 ft Curtains Set of 2", 
     image: "https://m.media-amazon.com/images/I/61h+XWRrbgL._AC_UL320_.jpg", 
     price: 399, 
@@ -30,7 +30,7 @@ const curtains = [
     },
 
      {
-          id : 4,
+          id : 4.4,
     title: "Home Sizzler Eyelet Polyester Door Curtains ,7ft (Set of 2)(Brown)", 
     image: "https://m.media-amazon.com/images/I/41kyd2CUaIL._AC_UL320_.jpg", 
     price: 750, 

@@ -17,8 +17,8 @@
 }
 
 .subheader__link{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 
 .subheader__link :hover{
@@ -26,4 +26,13 @@
     color: #d4e2d4;
 }
 
+
+@media (max-width: 800px) {
+
+    .subheader__link{
+        text-decoration: none;
+        color: white;
+        font-size: 0.9rem;
+    }
+}
 

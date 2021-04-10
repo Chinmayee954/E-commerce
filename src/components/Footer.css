@@ -45,3 +45,19 @@
     font-weight:normal;
 }
 
+@media (max-width: 800px) {
+    .footer__link {
+        margin: 1rem;
+        font-size: 0.9rem;
+        color: grey;
+        text-align:center;
+    }
+
+    .footer__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 1.5rem;
+    }
+
+}

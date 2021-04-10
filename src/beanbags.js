@@ -1,6 +1,6 @@
 const beanbags = [
       {
-        id : 1,
+        id : 2.1,
     title: "Solimo XXXL Bean Bag Cover (Black with Pink Piping)", 
     image: "https://m.media-amazon.com/images/I/91PjQLbk8vL._AC_UL320_.jpg", 
     price: 849, 
@@ -10,7 +10,7 @@ const beanbags = [
     },
 
     {
-           id : 2,
+           id : 2.2,
     title: "Solimo XXL Bean Bag Cover Without Beans (Red and Black)", 
     image: "https://m.media-amazon.com/images/I/61v1e60j+GL._AC_UL320_.jpg", 
     price: 659, 
@@ -20,7 +20,7 @@ const beanbags = [
     },
 
     {
-         id : 3,
+         id : 2.3,
     title: "Solimo XL Bean Bag Cover Without Beans (Brown and Tan)", 
     image: "https://m.media-amazon.com/images/I/612QHgZ5zpL._AC_UL320_.jpg", 
     price: 599, 
@@ -30,7 +30,7 @@ const beanbags = [
     },
 
      {
-          id : 4,
+          id : 2.4,
     title: "Rocococ Bean Bag Beautiful Green & Black Shade (Un Filled)", 
     image: "https://m.media-amazon.com/images/I/71YUVmGGmyL._AC_UL320_.jpg", 
     price: 340, 
