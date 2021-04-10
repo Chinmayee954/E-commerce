@@ -26,7 +26,7 @@ function App() {
             discount : tshirt[0].discount
             }
         ])
-        console.log("hello");
+       
     }
 
     function handlefavoriteIcon()

@@ -6,3 +6,15 @@
    margin-left: 1rem;
    margin-right: 1rem;
 }
+
+.homerow__product{
+     display: flex;
+     flex-direction: column;
+     background-color: white;
+     margin: 0.5rem;
+     width: 40%;
+     box-shadow: 4px 3px 7px 2px #00000040;
+     height: 23rem;
+     padding: 0.6rem;
+}
+

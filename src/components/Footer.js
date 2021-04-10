@@ -8,13 +8,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 function Footer() {
     return (
-        <div className="footer">
+        <div id="footer__" className="footer">
             <div className="footer__info">
 
-            <Link className="footer__link" >  <h6>About us</h6></Link>
-            <Link className="footer__link"><h6>Cancellation and return policy</h6></Link>
-            <Link className="footer__link"><h6>Privacy policy</h6></Link>
-            <Link className="footer__link"><h6>Terms and conditions</h6></Link>
+            <Link className="footer__link" >  <span>About us</span></Link>
+            <Link className="footer__link"><span>Cancellation and return policy</span></Link>
+            <Link className="footer__link"><span>Privacy policy</span></Link>
+            <Link className="footer__link"><span>Terms and conditions</span></Link>
                
             </div>
 

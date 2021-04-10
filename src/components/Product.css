@@ -7,7 +7,9 @@
     box-shadow: 4px 3px 7px 2px #00000040;
     height: 23rem;
     padding: 0.6rem;
+    
 }
+
 
 
 .product__rating{
@@ -35,11 +37,19 @@
   font-size: 1.5rem;
 }
 
-.product__info__button >i :hover {
+.product__info__button >i  :hover {
     margin: 0rem;
     font-size: 1.8rem;
     z-index: 10000;
     
+}
+
+.product__info__button>i >span:hover {
+    margin: 0rem;
+    font-size: 1.8rem;
+    z-index: 10000;
+    color: crimson;
+
 }
 
 
@@ -53,16 +63,23 @@
     margin-top: 1rem;
     height: 12.5rem;
     max-width: 100%;
+    
 }
 
 .product__info__img > img{
     max-width: 260px;
+    cursor: pointer;
 }
 
 
 
-.title{
+.title {
     font-size: 1rem;
+    cursor: pointer;
+}
+
+.title :hover {
+    color: #ef4f4f;
 }
 
 .product__price > small {
@@ -76,9 +93,4 @@
 .product__price__saving{
     text-decoration: line-through;
 }
-
-.favorite__icon{
-    text-decoration: line-through;
-}
-
 

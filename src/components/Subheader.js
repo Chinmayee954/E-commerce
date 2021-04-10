@@ -1,16 +1,16 @@
 import React from "react";
 import "./Subheader.css";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 
 function Subheader(){
     return (
         <nav className = "subheader">
-           <Link className="subheader__link">
+           <NavLink to="/Footer" className="subheader__link">
                <div className="subheader__option">
                    <span>T-Shirt</span>
                </div>
-           </Link>
+           </NavLink>
 
            <Link className="subheader__link">
                <div className="subheader__option">

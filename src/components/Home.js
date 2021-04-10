@@ -114,7 +114,8 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
 
         {curtains.map(item => {
             return (
-                    <Product 
+           
+                         <Product 
             id={item.id}
             title={item.title}
             price={item.price}
@@ -126,6 +127,7 @@ function Home({handleItems, handlefavoriteIcon, temp}) {
                  handlefavoriteIcon  ={handlefavoriteIcon}
                  temp = {temp}
             />
+          
             )
         })
         }

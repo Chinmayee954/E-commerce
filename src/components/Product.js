@@ -17,7 +17,7 @@ const a = 1;
     </div>
 
         <div className="product__info"> 
-                   <p className="title">{title}</p> 
+                   <p className="title"><span>{title}</span></p> 
            <p className="product__price">
                <small>$</small>
                <strong>{price}   </strong>
@@ -47,7 +47,7 @@ const a = 1;
 
     <div className="product__info__button">
        <i onClick = {handleItems}><AddShoppingCartIcon /></i>
-          <i onclick = {handlefavoriteIcon} classname = {a ? "favorite__icon" : null}><FavoriteBorderIcon /></i> 
+       <i classname =  "favorite__icon" ><span><FavoriteBorderIcon /></span></i>    
     </div>
         </div>
     )
